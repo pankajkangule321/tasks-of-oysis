@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#task-container, #meeting-container {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+li button {
+  margin-left: 10px;
+}
